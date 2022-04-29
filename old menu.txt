@@ -1,0 +1,10 @@
+/*
+<div class = "Rectangle8"><div><p class = 'Martihin'>Иван Мартихин</p></div><div>
+<ul class="h-nav">
+<li class = "posmenu1"><a href="#">Главное меню</li>
+<li class = "posmenu2"><a href="#">Курсы</li>
+<li class = "posmenu3"><a href="#">Контакты</li>
+<li class = "posmenu4"><a href="#">Об услугах</li>
+</ul>
+</div></div>
+*/

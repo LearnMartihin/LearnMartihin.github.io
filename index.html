@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Курсы по программированию</title>
+<link rel="shortcut icon" href="kitty.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="style.css">
+    <script src="http://yastatic.net/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://yastatic.net/jquery/cookie/1.0/jquery.cookie.min.js"></script>
+  <link rel="stylesheet" href="1.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+<div id="overlay">
+            <div class="popup">
+                <h2 text-align = center>Внимание!</h2><br>
+                <p>
+                    Сайт некорректно отображается на маленьких экранах. 
+                 </p><br>
+                 <p>Мобильная версия сайта находится в разработке</p> 
+                <button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';"></button>
+            </div>
+        </div>
+<script type="text/javascript">
+	/*var delay_popup = 1;	setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);*/
+	$(function() {
+            // Проверяем запись в куках о посещении
+            // Если запись есть - ничего не делаем
+            if (!$.cookie('hideModal')) {
+           // если cookie не установлено появится окно
+           // с задержкой 5 секунд
+            var delay_popup = 1;
+            setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);
+            }
+            // Запоминаем в куках, что посетитель уже заходил
+            $.cookie('hideModal', true, {
+            // Время хранения cookie в днях
+                expires: 1,
+                path: '/'
+            });
+        });
+</script>
+  <header class="clearfix">
+    <div class="container">
+      <div class="header-left">
+        <h1>Иван Мартихин</h1>
+      </div>
+      <div class="header-right">
+        <label for="open">
+          <span class="hidden-desktop"></span>
+        </label>
+        <input type="checkbox" name="" id="open">
+        <nav>
+          <a href="#">Главное меню</a>
+          <a href="kurs.html">Курсы</a>
+          <a href="Yslugi.html">Об услугах</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class='Rectangle12'>
+    <nav>
+      <a href="kurs.html#Intensiv" class='test'>Курсы на лето Подробнее... </a>
+    </nav>
+  </div>
+
+  <div id="bg"></div>
+  <script type="text/javascript" src="particles.min.js"></script>
+  <script type="text/javascript" src="particles.js"></script>
+  <main>
+    <div class='telo'>
+      <div class='osninfo'>
+        <table>
+          <tr>
+            <td><img img src="https://st.depositphotos.com/1034986/4413/i/600/depositphotos_44135289-stock-photo-hands-using-laptop.jpg" width=500px, height=500px></td>
+            <td>
+              <table>
+                <tr>
+                  <td class='fullline'><h1>Курсы по программированию и компьютерной грамотности</h1></td>
+                </tr>
+                <tr>
+                  <td>Меня зовут Иван. Я помогу вашим детям освоиться в сфере IT. Сейчас актуально учиться программированию и знакомиться с компьютером, так как на рынке востребованы профессии программистов и разработчиков.Мои курсы подходят для детей от 8 до 18 лет.
+				  Позвоните мне и мы подберем вам курс.
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </main>
+  <footer>
+  	<div class='Kontackt'>
+        <table>
+		<p text-align = center class='pkontact'>Свяжитесь со мной</p>
+          <tr>
+            <td><p>Номер телефона: </p></td>
+            <td>
+              <p>+7-915-495-64-91</p>
+            </td>
+			<td><p>Почта:</p></td>
+            <td>
+              <p>learnmartihin@gmail.com</p>
+            </td>
+          </tr>
+          <tr>
+            <td><p>Телеграмм:</p></td>
+            <td>@LEARNMARTIHIN</td>
+			<td><p>Вконтакте:</td>
+            <td><p>@learnmartihin</p></td>
+          </tr>
+        </table>
+      </div>
+  </footer>
+</body>
+
+</html>
