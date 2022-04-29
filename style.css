@@ -444,6 +444,7 @@ main h1 {
   width:50vm;
   height:50vm;
 }
+	body{ zoom: 75%}
 }
 
 /* Portrait tablet to landscape and desktop */
