@@ -6,7 +6,6 @@ html{
 
 body {
   width: 100%;
-  zoom: 80%;
   height: 100%;
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
@@ -359,6 +358,8 @@ main {
   flex-direction: column;
 }
 
+
+
 footer {
 font-family: 'Montserrat', sans-serif;
   background-color: rgba(0, 0, 0, 0);
@@ -423,7 +424,7 @@ main h1 {
 }
 
 .Kontackt table{
-	margin-left: 35%;
+	margin-left: 15%;
   margin-right: 25%;
   border-spacing: 40px;
   border-collapse: separate;
@@ -433,157 +434,92 @@ main h1 {
 	font-size:32px;
 }
 
-/*Desctop*/
-@media (min-width: 768px) and (max-width: 1843px) {
-	.Kontackt table{
-	margin-left: 25vmin;
-  border-spacing: 40px;
-  border-collapse: separate;
+@media only screen and (max-width:1450px){
+.osninfo img {
+	display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	width:300px;
+	height:300px;
+}
+.osninfo table {
+	border-spacing: 10px;
+    border-collapse: separate;
 	}
-	.osninfo img {
-  border-radius: 55px;
-  width:50vm;
-  height:50vm;
+.Kontackt table {
+	margin-left:10%;
 }
-	body{ zoom: 75%}
+.osninfo, .Kontackt{
+	font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250%;
+    line-height: 50px;
 }
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  .Rectangle12 nav > a {
-  line-height: 35px;
-  color: #efd9f1;
-  width: 100%;
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
+main h1 {
+    text-align: left;
+    font-size: 200%;
 }
-
-
-.Rectangle12 nav:hover {
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
-  background: white;
-  background-size: cover;
-  transition: 0.3s linear;
-}
-
-.Rectangle12 nav>a:hover{
-	color:black;
-}
-
-.Rectangle12 nav:hover a{
-	color:black;
-}
-
-a {
-  text-decoration: none;
-  color: #efd9f1;
-}
-.Rectangle12 {
-  text-align: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.0434) 53.12%, rgba(27, 90, 252, 0.0868) 75%, rgba(255, 255, 255, 0.14) 96.35%);
-
-}
-  .box {
-    width: 49%;
-    margin-bottom: 5%;
-  }
-
-  ul li:nth-child(3) .box {
-    clear: both;
-  }
-
-  ul li:nth-child(2n) .box {
-    margin-right: 0;
-    clear: right;
-  }
 
 }
 
-/* Small monitor */
-@media (max-width: 979px) {
-  header nav > a {
-    padding: 0 1.5em;
-  }
-  .section-left,
-  .section-right {
-    width: 100%;
-  }
-  .section-left {
-    text-align: center;
-  }
-  .section-right {
-    padding: 0 0 2em;
-  }
-  .section-title {
-    font-size: 4em;
-    margin-bottom: 0.2em;
-  }
-  .section-tagline {
-    font-size: 1.3em;
-  }
-  .learn-more {
-    margin: 0 auto;
-  }
-  
-
-  
+@media only screen and (max-width:1200px){
+.osninfo {
+	padding-bottom:25px;
 }
 
-/* 
-@media (max-width: 767px) {
-    .container{
-        width: 95%;
-    }
-    nav>a{
-        padding: 0 2em;
-		font-size:40px;
-    }
-    h1{
-		font-size:60px;
-        padding: .5em 0;
-    }
-    .header-left,
-    .header-right{
-        width: 100%;
-        text-align: center;
-    }
-    .section-left,
-    .section-right{
-        width: 100%;
-    }
-    .section-left{
-        text-align: center;
-        padding: 2em 0;
-    }
-    .section-right{
-        padding: 1em 0 2em;
-    }
-    .section-title{
-        font-size: 3em;
-        margin-bottom: .2em;
-    }
-    .section-tagline{
-        font-size: 1.3em;
-    }
-    .learn-more{
-        margin: 0 auto;
-    }
-}*/
-
-/* Landscape phones and down */
-@media (max-width: 770px) {
-  body {
+.osninfo {
+	margin-right:0;
+	text-align:left;
+	}
+.osninfo td{
+	margin-top:25px;
+	display:block;
+	display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	
+}
+.osninfo img {
+	display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	width:300px;
+	height:300px;
+}
+.osninfo table {
+	border-spacing: 20px;
+    border-collapse: collapse;
+	}
+	
+.Kontackt table {
+	margin-left:0;
+}
+body{
+	height:1400px;
+}
+footer{
+	top:1400px;
+}
+}
+@media only screen and (max-width:992px){
+.Kontackt table {
+    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	text-align:center;
+	margin-right: 0;
+}
+.Kontackt td {
+	display: block;
+	    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	text-align:center;
+}
+}
+@media only screen and (max-width:768px){
+body {
     padding: 0 0.5em;
   }
   .container {
@@ -638,47 +574,41 @@ a {
   .hidden-desktop {
     display: block;
   }
-  .Rectangle12 nav > a {
-  line-height: 35px;
-  color: #efd9f1;
-  width: 100%;
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
+  .osninfo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
 }
 
-
-.Rectangle12 nav:hover {
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
-  background: white;
-  background-size: cover;
-  transition: 0.3s linear;
+.osninfo{
+    font-size: 200%;
+    line-height: 30px;
 }
-
-.Rectangle12 nav>a:hover{
-	color:black;
+	main h1 {
+	font-size:30px;
+	}
+	body{
+	height:1100px;
 }
-
-.Rectangle12 nav:hover a{
-	color:black;
+footer{
+	top:1100px;
 }
-
-a {
-  text-decoration: none;
-  color: #efd9f1;
+.pkontact {
+    font-size: 23px;
 }
-.Rectangle12 {
-  text-align: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.0434) 53.12%, rgba(27, 90, 252, 0.0868) 75%, rgba(255, 255, 255, 0.14) 96.35%);
+.Kontackt{
+    font-size: 170%;
+    line-height: 30px;
+}
+input[type="checkbox"]:checked + nav {
+    height: 500px;
+}
+}
+@media only screen and (max-width:480px){
 
-}}
+}
+@media only screen and (max-width:320px){
+
+}

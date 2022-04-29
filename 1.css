@@ -80,7 +80,7 @@
     background-color: rgba(252, 20, 0, 0.8);
 }
 
-@media (max-width: 1384px) {
+@media (max-width: 600px) {
 #overlay {
 	visibility:visible;
     position: fixed;
