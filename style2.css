@@ -949,156 +949,139 @@ font-family: 'Montserrat', sans-serif;}
 }
 
 /*Desctop*/
-@media (min-width: 768px) and (max-width: 1843px) {
-	.Kontackt table{
-	margin-left: 25vmin;
-  border-spacing: 40px;
-  border-collapse: separate;
-	}
-	.osninfo img {
-  border-radius: 55px;
-  width:50vm;
-  height:50vm;
+@media only screen and (max-width:1450px){
+.slideText {
+	padding-top: 15%;
+	
 }
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  .Rectangle12 nav > a {
-  line-height: 35px;
-  color: #efd9f1;
-  width: 100%;
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
+.slideText5 {
+	padding-top: 15%;
 }
 
 
-.Rectangle12 nav:hover {
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
-  background: white;
-  background-size: cover;
-  transition: 0.3s linear;
+.slider {
+	height:640px;
+}
+.slider2 {
+	height:640px;
+}
+.slider3 {
+	height:480px;
+}
+.slider4 {
+	height:550px;
+}
+#bg{
+	height:3600px;
+}
+footer{
+	top:3600px;
 }
 
-.Rectangle12 nav>a:hover{
-	color:black;
+
+.Kontackt table {
+	margin-left:10%;
 }
-
-.Rectangle12 nav:hover a{
-	color:black;
+.Kontackt{
+	font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250%;
+line-height: 50px;
 }
-
-a {
-  text-decoration: none;
-  color: #efd9f1;
+.osninfo{
+	font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 300%;
+	line-height: 50px;
 }
-.Rectangle12 {
-  text-align: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.0434) 53.12%, rgba(27, 90, 252, 0.0868) 75%, rgba(255, 255, 255, 0.14) 96.35%);
-
-}
-
-  .box {
-    width: 49%;
-    margin-bottom: 5%;
-  }
-
-  ul li:nth-child(3) .box {
-    clear: both;
-  }
-
-  ul li:nth-child(2n) .box {
-    margin-right: 0;
-    clear: right;
-  }
 
 }
 
-/* Small monitor */
-@media (max-width: 979px) {
-  header nav > a {
-    padding: 0 1.5em;
-  }
-  .section-left,
-  .section-right {
-    width: 100%;
-  }
-  .section-left {
-    text-align: center;
-  }
-  .section-right {
-    padding: 0 0 2em;
-  }
-  .section-title {
-    font-size: 4em;
-    margin-bottom: 0.2em;
-  }
-  .section-tagline {
-    font-size: 1.3em;
-  }
-  .learn-more {
-    margin: 0 auto;
-  }
-  
+@media only screen and (max-width:1200px){
 
-  
+.slider {
+	height:760px;
+}
+.slider2 {
+	height:640px;
+}
+.slider3 {
+	height:500px;
+}
+.slider4 {
+	height:720px;
+	border-bottom:0px;
+}
+.slideText8 {
+	border-bottom:1px solid gray;
+}
+.Kontackt table {
+	margin-left:0;
+}
+body{
+	height:3800px;
+}
+footer{
+	top:3800px;
+}
+}
+@media only screen and (max-width:992px){
+	body{
+	height:4700px;
+}
+footer{
+	top:4700px;
+}
+	.slider {
+	height:900px;
+}
+.slider2 {
+	height:900px;
 }
 
-/* 
-@media (max-width: 767px) {
-    .container{
-        width: 95%;
-    }
-    nav>a{
-        padding: 0 2em;
-		font-size:40px;
-    }
-    h1{
-		font-size:60px;
-        padding: .5em 0;
-    }
-    .header-left,
-    .header-right{
-        width: 100%;
-        text-align: center;
-    }
-    .section-left,
-    .section-right{
-        width: 100%;
-    }
-    .section-left{
-        text-align: center;
-        padding: 2em 0;
-    }
-    .section-right{
-        padding: 1em 0 2em;
-    }
-    .section-title{
-        font-size: 3em;
-        margin-bottom: .2em;
-    }
-    .section-tagline{
-        font-size: 1.3em;
-    }
-    .learn-more{
-        margin: 0 auto;
-    }
-}*/
-
-/* Landscape phones and down */
-@media (max-width: 770px) {
-  body {
+.slideText{
+	padding-top: 30%;
+	width:400px;
+}
+.slideText3{
+	padding-top: 30%;
+}
+.slideText5{
+	padding-top: 30%;
+	line-height:50px;
+}
+.slideText7{
+	padding-top: 30%;
+	line-height:50px;
+}
+.slider3 {
+	
+	height:650px;
+}
+.slider4 {
+	height:900px;
+	border-bottom:0px;
+}
+	
+.Kontackt table {
+    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	text-align:center;
+	margin-right: 0;
+}
+.Kontackt td {
+	display: block;
+	    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	text-align:center;
+}
+}
+@media only screen and (max-width:768px){
+body {
     padding: 0 0.5em;
   }
   .container {
@@ -1121,6 +1104,7 @@ a {
     font-size: 50px;
     padding: 0.5em 0;
   }
+  
   .header-left,
   .header-right {
     width: 100%;
@@ -1152,50 +1136,86 @@ a {
   .hidden-desktop {
     display: block;
   }
-  .Rectangle12 nav > a {
-  line-height: 35px;
-  color: #efd9f1;
-  width: 100%;
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
+  .osninfo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
 }
 
+.osninfo{
+    font-size: 200%;
+    line-height: 30px;
+}
+	main h1 {
+	font-size:30px;
+	}
 
-.Rectangle12 nav:hover {
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
-  background: white;
-  background-size: cover;
-  transition: 0.3s linear;
+.pkontact {
+    font-size: 23px;
+}
+.Kontackt{
+    font-size: 170%;
+    line-height: 30px;
+}
+input[type="checkbox"]:checked + nav {
+    height: 500px;
 }
 
-.Rectangle12 nav>a:hover{
-	color:black;
+.slideText {
+	font-size:25px;
+	width:300px;
+}
+.slider{
+	height:650px;
+}
+.slider .prev,.slider .next {
+top: 30%;
+}
+.slider2 .prev2,.slider2 .next2 {
+top: 30%;
+}
+.slider2 .prev2,.slider2 .next2 {
+top: 30%;
+}
+.slider2{
+	height:600px;
+}
+.slider3{
+	height:400px;
+}
+.slider4{
+	height:600px;
+}
+.slideText5{
+	font-size:25px;
+	width:300px;
+	line-height: 30px;
+	
+}
+.slideText3{
+	font-size:25px;
+	width:300px;
+}
+.slideText7{
+	font-size:25px;
+	width:300px;
 }
 
-.Rectangle12 nav:hover a{
-	color:black;
+footer{
+	top:3100px;
 }
+body{
+	height:3100px;
+}
+#overlay {
+	visibility:visible;
+}
+}
+@media only screen and (max-width:480px){
 
-a {
-  text-decoration: none;
-  color: #efd9f1;
 }
-.Rectangle12 {
-  text-align: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.0434) 53.12%, rgba(27, 90, 252, 0.0868) 75%, rgba(255, 255, 255, 0.14) 96.35%);
+@media only screen and (max-width:320px){
 
-}
-  
-  
 }
