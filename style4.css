@@ -881,19 +881,25 @@ body,#bg{
 	input[type="checkbox"]:checked + nav {
     height: 200px;
 }
+.osninfo{
+	width:100vw;
+}
 .telo h1 {
 	font-size:250%;
 	margin-left:0;
 }
-.telo,.osninfo,.fullline{
-	margin:0;
-	width:100%;
+.osninfo table {
+    width: 100%;
+    margin: 0px;
 }
 .info0,.info,.info2,.info3{
 	font-size:90%;
-	width:250px;
+	width:80vw;
 }
 .info__headline {
+	margin-left:15px;
+}
+.info__headline3{
 	margin-left:15px;
 }
 .info__switch0:checked ~ .info__body0,.info__switch:checked ~ .info__body,.info__switch2:checked ~ .info__body2,.info__switch3:checked ~ .info__body3 {
