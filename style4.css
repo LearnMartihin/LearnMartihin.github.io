@@ -501,7 +501,7 @@ footer {
 }
 
 .info__switch3:checked~.info__body3 {
-  max-height: 500px;
+  max-height: 600px;
   
 }
 
@@ -589,13 +589,18 @@ footer {
 .osninfo h1{
 	text-align:center;
 }
-.osninfo{  font-family: "Inter";}
+.osninfo{  
+font-family: "Inter";
+}
 .Kontackt{
 font-family: 'Montserrat', sans-serif;}
-.osninfo,.Kontackt {
+.osninfo{
+  font-size: 32px;
+}
+.Kontackt {
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 28px;
   line-height: 44px;
 
   color: #efd9f1;
@@ -659,7 +664,7 @@ height:50px;
 }
 
 .Kontackt table{
-	margin-left: 35%;
+	margin-left: 10%;
   margin-right: 25%;
   border-spacing: 40px;
   border-collapse: separate;
@@ -670,145 +675,108 @@ height:50px;
 }
 
 /*Desctop*/
-@media (min-width: 768px) and (max-width: 1843px) {
-	.Kontackt table{
-	margin-left: 25vmin;
-  border-spacing: 40px;
-  border-collapse: separate;
-	}
-	.osninfo img {
-  border-radius: 55px;
-  width:50vm;
-  height:50vm;
+@media only screen and (max-width:1450px){
+#bg{
+	height:2500px;
 }
+footer{
+	top:2600px;
+}
+.osninfo table {
+margin-left: 5%;
+color:#efd9f1;
+
 }
 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  .Rectangle12 nav > a {
-    line-height: 40px;
-    color: black;
-    width: 100%;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.5em;
-  }
-  .Rectangle12 nav:hover {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.5em;
-    background: yellow;
-    background-size: cover;
-    transition: 0.3s linear;
-    color: black;
-  }
+.telo h1 {
+	    margin-left: 15%;
+}
 
-  a {
-    text-decoration: none;
-    color: #efd9f1;
-  }
-  .Rectangle12 {
-    text-align: center;
-    background: url(https://img.freepik.com/free-vector/lemon-fruit-summer-seamless-pattern-background-template_206846-153.jpg);
-  }
-  .box {
-    width: 49%;
-    margin-bottom: 5%;
-  }
-
-  ul li:nth-child(3) .box {
-    clear: both;
-  }
-
-  ul li:nth-child(2n) .box {
+.Kontackt table {
+    margin-left: 10%;
     margin-right: 0;
-    clear: right;
-  }
-
 }
-
-/* Small monitor */
-@media (max-width: 979px) {
-  header nav > a {
-    padding: 0 1.5em;
-  }
-  .section-left,
-  .section-right {
-    width: 100%;
-  }
-  .section-left {
-    text-align: center;
-  }
-  .section-right {
-    padding: 0 0 2em;
-  }
-  .section-title {
-    font-size: 4em;
-    margin-bottom: 0.2em;
-  }
-  .section-tagline {
-    font-size: 1.3em;
-  }
-  .learn-more {
-    margin: 0 auto;
-  }
-  
-
+.Kontackt{
+	font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250%;
+	line-height: 50px;
+}
+.osninfo{
+	font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 300%;
+	line-height: 50px;
+}
+.info__switch3:checked~.info__body3 {
+  max-height: 700px;
   
 }
 
-/* 
-@media (max-width: 767px) {
-    .container{
-        width: 95%;
-    }
-    nav>a{
-        padding: 0 2em;
-		font-size:40px;
-    }
-    h1{
-		font-size:60px;
-        padding: .5em 0;
-    }
-    .header-left,
-    .header-right{
-        width: 100%;
-        text-align: center;
-    }
-    .section-left,
-    .section-right{
-        width: 100%;
-    }
-    .section-left{
-        text-align: center;
-        padding: 2em 0;
-    }
-    .section-right{
-        padding: 1em 0 2em;
-    }
-    .section-title{
-        font-size: 3em;
-        margin-bottom: .2em;
-    }
-    .section-tagline{
-        font-size: 1.3em;
-    }
-    .learn-more{
-        margin: 0 auto;
-    }
-}*/
 
-/* Landscape phones and down */
-@media (max-width: 770px) {
-  body {
+}
+
+@media only screen and (max-width:1200px){
+	body,#bg{
+	height:2500px;
+}	
+footer{
+	top:2600px;
+}
+	
+.osninfo table {
+	width: 800px;
+	margin-left: 3.5%;
+}
+.Kontackt table {
+	margin-left:0;
+}
+.NotLine table th{
+	
+	font-size:90%;
+}
+.NotLine table {
+	margin:0;
+}
+}
+@media only screen and (max-width:992px){
+	body,#bg{
+	height:2800px;
+}
+footer{
+	top:2800px;
+}
+
+
+.osninfo table{
+	width:100%;
+	margin:0;
+}
+
+.NotLine table tr{
+	font-size:80%;
+	width:120px;
+}
+
+.Kontackt table {
+    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	text-align:center;
+	margin-right: 0;
+}
+.Kontackt td {
+	display: block;
+	    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center;
+	text-align:center;
+}
+}
+@media only screen and (max-width:768px){
+body {
     padding: 0 0.5em;
   }
   .container {
@@ -831,6 +799,7 @@ height:50px;
     font-size: 50px;
     padding: 0.5em 0;
   }
+  
   .header-left,
   .header-right {
     width: 100%;
@@ -862,50 +831,50 @@ height:50px;
   .hidden-desktop {
     display: block;
   }
-  .Rectangle12 nav > a {
-  line-height: 40px;
-  color: #efd9f1;
-  width: 100%;
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
+  .osninfo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
 }
 
+.osninfo{
+    font-size: 200%;
+    line-height: 30px;
+}
+	main h1 {
+	font-size:30px;
+	}
 
-.Rectangle12 nav:hover {
-font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.2em;
-  background: white;
-  background-size: cover;
-  transition: 0.3s linear;
+.pkontact {
+    font-size: 23px;
+}
+.Kontackt{
+    font-size: 170%;
+    line-height: 30px;
+}
+input[type="checkbox"]:checked + nav {
+    height: 500px;
 }
 
-.Rectangle12 nav>a:hover{
-	color:black;
+footer{
+	top:2300px;
 }
+body,#bg{
+	height:2300px;
+}
+#overlay {
+	visibility:visible;
+}
+.NotLine table tr{
+	font-size:75%;
+	width:120px;
+}
+}
+@media only screen and (max-width:480px){
 
-.Rectangle12 nav:hover a{
-	color:black;
 }
+@media only screen and (max-width:320px){
 
-a {
-  text-decoration: none;
-  color: #efd9f1;
-}
-.Rectangle12 {
-  text-align: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.0434) 53.12%, rgba(27, 90, 252, 0.0868) 75%, rgba(255, 255, 255, 0.14) 96.35%);
-
-}
-  
-  
 }
