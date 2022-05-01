@@ -2,6 +2,7 @@
 
 html{
 	background-color:black;
+
 }
 
 body {
@@ -752,7 +753,7 @@ footer{
 
 
 .osninfo table{
-	width:100%;
+	width:100vw;
 	margin:0;
 }
 
@@ -864,7 +865,7 @@ footer{
 }
 body,#bg{
 	height:2300px;
-	width:100%;
+	width:100vw;
 }
 #overlay {
 	visibility:visible;
@@ -881,20 +882,24 @@ body,#bg{
 	input[type="checkbox"]:checked + nav {
     height: 200px;
 }
-.osninfo{
+.osninfo,.Rectangle12{
 	width:100vw;
 }
+
+
 .telo h1 {
 	font-size:250%;
-	margin-left:0;
+	margin:0;
+	width:100vw;
 }
-.osninfo table {
-    width: 100%;
-    margin: 0px;
-}
+
+
 .info0,.info,.info2,.info3{
 	font-size:90%;
 	width:80vw;
+}
+header{
+	width:100vw;
 }
 .info__headline {
 	margin-left:15px;
@@ -905,7 +910,24 @@ body,#bg{
 .info__switch0:checked ~ .info__body0,.info__switch:checked ~ .info__body,.info__switch2:checked ~ .info__body2,.info__switch3:checked ~ .info__body3 {
 	max-height:120%;
 }
-
+.NotLine{
+	overflow-x:auto;
+	
+}
+.NotLine table tr{
+	font-size:65%;
+	width:120px;
+}
+footer{
+	top:1300px;
+}
+body,#bg{
+	height:1300px;
+	width:100vw;
+}
+.osninfo{
+	padding-bottom:200px;
+}
 }
 @media only screen and (max-width:320px){
 
