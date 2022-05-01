@@ -887,9 +887,7 @@ body,#bg{
 }
 .telo,.osninfo,.fullline{
 	margin:0;
-}
-.fullline{
-	width:300px;
+	width:100%;
 }
 .info0,.info,.info2,.info3{
 	font-size:90%;
