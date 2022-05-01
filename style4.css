@@ -677,9 +677,10 @@ height:50px;
 }
 
 /*Desctop*/
-@media only screen and (max-width:2560px){
+
+@media only screen and (min-width:1700px){
 	.telo{
-		margin-left:23vw;
+		margin-left:23%;
 		
 	}
 }
