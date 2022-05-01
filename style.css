@@ -607,7 +607,24 @@ input[type="checkbox"]:checked + nav {
 }
 }
 @media only screen and (max-width:480px){
-
+	header nav > a {
+		 line-height: 50px;
+	}
+	input[type="checkbox"]:checked + nav {
+    height: 200px;
+}
+main h1 {
+	font-size:20px;
+}
+.osninfo td {
+	font-size:18px;
+}
+footer{
+	top:1300px;
+}
+body,#bg{
+	height:1300px;
+}
 }
 @media only screen and (max-width:321px){
 

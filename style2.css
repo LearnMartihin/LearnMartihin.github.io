@@ -1215,7 +1215,52 @@ body{
 }
 }
 @media only screen and (max-width:480px){
-
+	header nav > a {
+		 line-height: 50px;
+	}
+	input[type="checkbox"]:checked + nav {
+    height: 200px;
+}
+.slider {
+    max-height: 730px;
+	min-height:500px;
+}
+.slider2 {
+    height: 650px;
+}
+.slider3 {
+    height: 450px;
+}
+.slider4 {
+    height: 900px;
+}
+.slideText2{
+	font-size:80%;
+}
+.slideText5{
+	padding-top:95px;
+	margin-bottom:55px;
+	width:150px;
+}
+.slideText4{
+	font-size:80%;
+}
+.slideText6{
+	font-size:80%;
+}
+.slideText7{
+	width:200px;
+	line-height:25px;
+}
+main{
+	width:100%;
+}
+body,#bg{
+	height:3700px;
+}
+footer{
+	top:3700px;
+}
 }
 @media only screen and (max-width:320px){
 

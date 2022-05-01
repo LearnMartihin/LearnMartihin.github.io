@@ -864,6 +864,7 @@ footer{
 }
 body,#bg{
 	height:2300px;
+	width:100%;
 }
 #overlay {
 	visibility:visible;
@@ -874,6 +875,32 @@ body,#bg{
 }
 }
 @media only screen and (max-width:480px){
+	header nav > a {
+		 line-height: 50px;
+	}
+	input[type="checkbox"]:checked + nav {
+    height: 200px;
+}
+.telo h1 {
+	font-size:250%;
+	margin-left:0;
+}
+.telo,.osninfo,.fullline{
+	margin:0;
+}
+.fullline{
+	width:300px;
+}
+.info0,.info,.info2,.info3{
+	font-size:90%;
+	width:250px;
+}
+.info__headline {
+	margin-left:15px;
+}
+.info__switch0:checked ~ .info__body0,.info__switch:checked ~ .info__body,.info__switch2:checked ~ .info__body2,.info__switch3:checked ~ .info__body3 {
+	max-height:120%;
+}
 
 }
 @media only screen and (max-width:320px){
