@@ -740,6 +740,9 @@ footer{
 	width: 800px;
 	margin-left: 3.5%;
 }
+.Kontackt{
+	width:100vw;
+}
 .Kontackt table {
 	margin-left:0;
 }
@@ -926,15 +929,18 @@ header{
 	font-size:65%;
 	width:120px;
 }
+
 footer{
-	top:2700px;
+	top:2600px;
+	z-index:2;
 }
 body,#bg{
-	height:2700px;
+	height:2600px;
 	width:100vw;
 }
 .osninfo{
 	padding-bottom:200px;
+	z-index:4;
 }
 
 }
