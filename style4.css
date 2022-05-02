@@ -927,15 +927,16 @@ header{
 	width:120px;
 }
 footer{
-	top:1300px;
+	top:2700px;
 }
 body,#bg{
-	height:1300px;
+	height:2700px;
 	width:100vw;
 }
 .osninfo{
 	padding-bottom:200px;
 }
+
 }
 @media only screen and (max-width:320px){
 
