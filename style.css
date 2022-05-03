@@ -381,7 +381,7 @@ main h1 {
 
 .telo {
   width: 75%;
-  text-align: center;
+  text-align: left;
   margin-left: 12.5%;
   background: linear-gradient(
     180deg,
@@ -402,6 +402,7 @@ main h1 {
   line-height: 44px;
   color: #efd9f1;
 }
+
 
 .osninfo table {
   margin-left: 5%;
@@ -456,6 +457,10 @@ main h1 {
     font-size: 250%;
     line-height: 50px;
 }
+.osninfo {
+	line-height: 40px;
+}
+
 main h1 {
     text-align: left;
     font-size: 200%;
@@ -496,10 +501,10 @@ main h1 {
 	margin-left:0;
 }
 body{
-	height:1400px;
+	height:1600px;
 }
 footer{
-	top:1400px;
+	top:1600px;
 }
 }
 @media only screen and (max-width:992px){
@@ -590,10 +595,10 @@ body {
 	font-size:30px;
 	}
 	body{
-	height:1100px;
+	height:1200px;
 }
 footer{
-	top:1100px;
+	top:1200px;
 }
 .pkontact {
     font-size: 23px;
@@ -620,10 +625,10 @@ main h1 {
 	font-size:18px;
 }
 footer{
-	top:1300px;
+	top:1500px;
 }
 body,#bg{
-	height:1300px;
+	height:1500px;
 }
 }
 @media only screen and (max-width:321px){
