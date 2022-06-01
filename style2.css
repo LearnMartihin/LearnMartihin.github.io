@@ -393,7 +393,7 @@ main h1 {
 .slider{
     max-width: 80%;
     position: relative;
-    height: 400px;
+    height: 550px;
 	z-index:3;
 	border-top:1px solid gray;
 border-bottom:1px solid gray;
@@ -960,7 +960,7 @@ font-family: 'Montserrat', sans-serif;}
 
 
 .slider {
-	height:940px;
+	height:1000px;
 }
 .slider2 {
 	height:640px;
@@ -1079,6 +1079,17 @@ footer{
     justify-content: center; /*центрируем элемент по горизонтали */
     align-items: center;
 	text-align:center;
+}
+}
+@media only screen and (max-width:991px){
+	.slider{
+		height: 1600px;
+	}
+	body,#bg{
+	height:5300px;
+}
+footer{
+	top:5300px;
 }
 }
 @media only screen and (max-width:768px){
@@ -1265,7 +1276,7 @@ footer{
 @media only screen and (max-width:320px){
 .slider {
 
-	height: 1230px;
+	height: 630px;
 }
 body,#bg{
 	height:4000px;
