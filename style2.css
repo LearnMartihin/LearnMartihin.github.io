@@ -1012,7 +1012,7 @@ line-height: 50px;
 	height:500px;
 }
 .slider4 {
-	height:720px;
+	height:820px;
 	border-bottom:0px;
 }
 .slideText8 {
@@ -1022,10 +1022,10 @@ line-height: 50px;
 	margin-left:0;
 }
 body{
-	height:3800px;
+	height:4350px;
 }
 footer{
-	top:3800px;
+	top:4350px;
 }
 }
 @media only screen and (max-width:992px){
@@ -1198,7 +1198,7 @@ top: 30%;
 	height:400px;
 }
 .slider4{
-	height:600px;
+	height:450px;
 }
 .slideText5{
 	font-size:25px;
@@ -1216,10 +1216,10 @@ top: 30%;
 }
 
 footer{
-	top:3100px;
+	top:3300px;
 }
 body{
-	height:3100px;
+	height:3300px;
 }
 #overlay {
 	visibility:visible;
@@ -1267,16 +1267,16 @@ main{
 	width:100%;
 }
 body,#bg{
-	height:3700px;
+	height:3900px;
 }
 footer{
-	top:3700px;
+	top:3900px;
 }
 }
 @media only screen and (max-width:320px){
 .slider {
 
-	height: 630px;
+	height: 1230px;
 }
 body,#bg{
 	height:4000px;
